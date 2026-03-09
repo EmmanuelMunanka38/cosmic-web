@@ -1,36 +1,109 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Cosmic - Tanzania's Next-Gen Fintech Platform
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/EmmanuelMunanka38/cosmic-web/main/public/cosmic-logo.jpeg" alt="Cosmic Logo" width="120" />
+</p>
+
+<p align="center">
+  <strong>🇹🇿 Built for Tanzania's Digital Future</strong>
+</p>
+
+---
+
+Cosmic is a modern fintech web application designed for Tanzania. Transfer funds instantly with minimal fees - built with lightning speed using Next.js, React, and Tailwind CSS.
+
+## Features
+
+- ⚡ **Lightning Fast** - Send and receive TSH instantly
+- 🔒 **Secure** - Bank-grade encryption and BOT compliant
+- 📱 **Mobile First** - Beautiful responsive design
+- 🌐 **Tanzania Focused** - Built specifically for Tanzanians
+
+## Tech Stack
+
+- **Framework**: Next.js 16 (React 19)
+- **Styling**: Tailwind CSS v4
+- **Animations**: Framer Motion
+- **Icons**: Lucide React
+- **Theme**: Dark/Light mode support
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
+
+- Node.js 18+
+- npm/yarn/pnpm
+
+### Installation
 
 ```bash
+# Clone the repository
+git clone https://github.com/EmmanuelMunanka38/cosmic-web.git
+
+# Navigate to project directory
+cd cosmic-web
+
+# Install dependencies
+npm install
+
+# Start development server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) to view the app.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Project Structure
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```
+├── app/
+│   ├── components/       # React components
+│   │   ├── Hero.tsx
+│   │   ├── Navbar.tsx
+│   │   ├── Footer.tsx
+│   │   ├── HowItWorks.tsx
+│   │   ├── AppStoreBadges.tsx
+│   │   ├── CosmicEcosystem.tsx
+│   │   ├── About.tsx
+│   │   ├── Security.tsx
+│   │   └── Testimonials.tsx
+│   ├── page.tsx         # Main page
+│   └── layout.tsx       # Root layout
+├── public/               # Static assets
+└── package.json
+```
 
-## Learn More
+## Building for Production
 
-To learn more about Next.js, take a look at the following resources:
+```bash
+# Create production build
+npm run build
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+# Start production server
+npm start
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Deployment
 
-## Deploy on Vercel
+Deploy easily on Vercel:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+```bash
+# Install Vercel CLI
+npm i -g vercel
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+# Deploy
+vercel
+```
+
+Or push to GitHub and connect to Vercel for automatic deployments.
+
+## Download the App
+
+- **Google Play**: [Coming Soon](#)
+- **App Store**: [Coming Soon](#)
+- **Direct APK**: [Download from MediaFire](https://www.mediafire.com/file/wv96svlbki119ol/app-release.apk/file)
+
+## License
+
+© 2026 Cosmic Labs. All rights reserved.
+
+Made with ❤️ in Tanzania by Emmanuel Mnanka Samo
